@@ -1,0 +1,1 @@
+{"flow": [{"id": 1, "module": "gateway:CustomWebHook"}, {"id": 2, "module": "slack:ActionPostMessage", "mapper": {"text": "Hello world"}}]}

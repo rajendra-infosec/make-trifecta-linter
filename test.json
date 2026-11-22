@@ -1,0 +1,1 @@
+{"flow": [{"id": 1, "module": "gateway:CustomWebHook"}, {"id": 2, "module": "openai-gpt-3:CreateCompletion", "mapper": {"prompt": "{{1.body}}"}}, {"id": 3, "module": "google-email:ActionSendAnEmail", "mapper": {"body": "{{2.result}}"}}]}
